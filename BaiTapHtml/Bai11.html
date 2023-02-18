@@ -10,7 +10,7 @@
         color: orange;
         text-align: center;
       }
-      
+
       table,
       tr,
       td {
@@ -18,7 +18,7 @@
         border: 1px solid black;
         border-collapse: collapse;
       }
-      div{
+      div {
         display: flex;
         justify-content: center;
       }
@@ -27,33 +27,33 @@
   <body>
     <h3>Đăng nhập</h3>
     <div>
-    <form action="">
-      <table>
-        <tbody>
-          <tr>
-            <td><label for="fcode"> Mã người dùng </label></td>
-            <td>
-              <input type="text" name="fcode" id="fcode" value="default" />
-            </td>
-          </tr>
-          <tr>
-            <td><label for="password"> Mật khẩu </label></td>
-            <td><input type="text" id="password" /></td>
-          </tr>
-          <tr>
-            <td colspan="2" style="text-align: center">
-              <input type="submit" value="Đăng nhập" />
-            </td>
-          </tr>
-          <tr id="result" style="visibility: hidden">
-            <td colspan="2" id="request"></td>
-          </tr>
-          <tr style="text-align: center">
-            <td colspan="2"><output name="result" for="fcode"></output></td>
-          </tr>
-        </tbody>
-      </table>
-    </form>
-</div>
+      <form action="">
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="fcode"> Mã người dùng </label></td>
+              <td>
+                <input type="text" name="fcode" id="fcode" value="default" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="password"> Mật khẩu </label></td>
+              <td><input type="text" id="password" /></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center">
+                <input type="submit" value="Đăng nhập" />
+              </td>
+            </tr>
+            <tr id="result" style="visibility: hidden">
+              <td colspan="2" id="request"></td>
+            </tr>
+            <tr style="text-align: center">
+              <td colspan="2"><output name="result" for="fcode"></output></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
   </body>
 </html>
