@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo form và điều kiển trên form</title>
+    <style>
+      h3 {
+        color: orange;
+        text-align: center;
+      }
+      
+      table,
+      tr,
+      td {
+        background-color: lightblue;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      div{
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Đăng nhập</h3>
+    <div>
+    <form action="">
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="fcode"> Mã người dùng </label></td>
+            <td>
+              <input type="text" name="fcode" id="fcode" value="default" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password"> Mật khẩu </label></td>
+            <td><input type="text" id="password" /></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <input type="submit" value="Đăng nhập" />
+            </td>
+          </tr>
+          <tr id="result" style="visibility: hidden">
+            <td colspan="2" id="request"></td>
+          </tr>
+          <tr style="text-align: center">
+            <td colspan="2"><output name="result" for="fcode"></output></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+</div>
+  </body>
+</html>
